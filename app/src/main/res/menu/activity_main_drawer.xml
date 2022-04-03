@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/calender"
+            android:title="CALENDER" />
+        <item
+            android:id="@+id/nav_names"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="99 NAMES OF ALLAH" />
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/guide"
+            android:title="GUIDE" />
+        <item
+            android:id="@+id/nav_dua"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="DUA" />
+    </group>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_calender">
+
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.example.ramadanguide.ui.home.HomeFragment"
+        android:label="CALENDER"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_names"
+        android:name="com.example.ramadanguide.ui.gallery.GalleryFragment"
+        android:label="99 NAMES OF ALLAH"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_guide"
+        android:name="com.example.ramadanguide.ui.slideshow.SlideshowFragment"
+        android:label="GUIDE"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_dua"
+        android:name="com.example.ramadanguide.ui.dua.DuaFragment"
+        android:label="DUA"
+        tools:layout="@layout/fragment_dua" />
+</navigation>

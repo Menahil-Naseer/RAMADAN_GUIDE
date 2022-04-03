@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CD69F"
+    android:orientation="vertical"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="CLICK HERE TO SEE WHAT IS ALLOWED AND WHAT IS NOT ALLOWED IN ISLAM"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/download" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#4CAF50"
+        android:onClick="clickme"
+        android:text="CLICK ME!"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</LinearLayout>

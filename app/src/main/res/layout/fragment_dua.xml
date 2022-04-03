@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dua.DuaFragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        tools:ignore="SpeakableTextPresentCheck">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="500dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="7dp"
+                    app:cardUseCompatPadding="true">
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#009688" />
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:gravity="center"
+                        android:text="\nاَللَّهُمَّ اِنِّی لَکَ صُمْتُ وَبِکَ اٰمَنْتُ وَعَلَيْکَ تَوَکَلَّتُ وَعَلَی رِزْقِکَ اَفْطَرْت"
+                        android:textColor="#000000"
+                        android:textSize="31sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="250dp"
+                        android:gravity="center"
+                        android:text="روزہ کھولنے کی دعااے اﷲ! بے شک میں نے تیرے لیے روزہ رکھا اور تجھ پر ایمان لایا اور تجھ پر ہی بھروسہ کیا اور تیرے ہی عطا کیے ہوئے رزق سے میں نے افطار کی۔"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="440dp"
+                        android:background="#009688" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="500dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="7dp"
+                    app:cardUseCompatPadding="true">
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#009688" />
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="80dp"
+                        android:gravity="center"
+                        android:text="وَبِصَوْمِ غَدٍ نَّوَيْتُ مِنْ شَهْرِ رَمَضَانَُ"
+                        android:textColor="#000000"
+                        android:textSize="31sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="250dp"
+                        android:gravity="center"
+                        android:text=":روزہ رکھنے کی دعا
+‘‘اورمیں نے ماہ رمضان کے روزے کی نیت کی’’"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="440dp"
+                        android:background="#009688" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="360dp"
+                    android:layout_height="500dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="7dp"
+                    app:cardUseCompatPadding="true">
+
+                    <View
+                        android:id="@+id/view6"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#009688" />
+
+                    <TextView
+                        android:id="@+id/txt7"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="80dp"
+                        android:gravity="center"
+                        android:text="بِسْمِ اللّٰہِ وَعَلٰی بَرَكَةِ اللّٰہُِ"
+                        android:textColor="#000000"
+                        android:textSize="31sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="250dp"
+                        android:gravity="center"
+                        android:text=":کھانے سے پہلے کی دعا
+‘‘میں نے الله کے نام کے ساتھ اور الله کی برکت پر کھانا شروع کی."
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <View
+                        android:id="@+id/view9"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="440dp"
+                        android:background="#009688" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>

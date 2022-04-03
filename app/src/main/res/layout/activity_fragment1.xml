@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6009688"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Recite the Quran: Ramadan is a time to communicate with the Almighty. Being the month when the holy book was revealed Prophet Muhammad, Ramadan is when one should recite the Holy Quran as many times as possible.
+\n\nOffer prayers: During Ramadan, all Muslims must offer Salat, which implies offering prayers five times a day. Salat is one of the Five Pillars of Islam and helps Muslims to seek Allah’s forgiveness and guidance. These prayers are known as Salat al-fajr, Salat al-zuhr, Salat al-‘asr, Salat al-maghrib and Salat al-‘isha.
+\n\nObserve fast: Fasting during Ramadan is considered to be one of the best practices as per the Islamic culture. It is also said that during the month of Ramadan, there is an increase in the spiritual rewards of fasting."
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

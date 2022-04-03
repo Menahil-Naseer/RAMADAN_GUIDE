@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6009688"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don’t consume food/water during the fasting period: Fasting is considered to be the most significant element of Ramadan, which is why you need to abstain from eating and drinking between dawn and dusk.
+\n\nDon’t hold grudges: Ramadan is all about forgiveness, which is why you shouldn’t hold grudges against anyone. During this period, forgive and ask for forgiveness from the Almighty.
+\n\nDon’t chew gum: During Ramadan, it is best to refrain from chewing gum or indulge in smoking.
+\n\nDon’t listen to loud music/songs: Respect the sentiments of those who are fasting or praying during this holy period. Listening to songs on a loud volume can cause hindrance. Hence, play music on your headphones so that it is not audible to those around you.
+\n\nDon’t waste time: Ramadan is a pious period, and hence, you should utilise your time constructively, rather than wasting it by watching TV, shopping or oversleeping. Indulge in praying to Allah and nurture discipline."
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
